@@ -83,7 +83,7 @@ This program:
 
 ### Command Descriptions
 
-For a full list of commands, refer to the `commands_description.md` file in the repository. Below are some of the key commands:
+For a full list of commands, refer to the `Commands.md` file in the repository. Below are some of the key commands:
 
 - **DEF**: Defines a non-constant variable.
 - **FUNC**: Declares a function.
@@ -91,7 +91,7 @@ For a full list of commands, refer to the `commands_description.md` file in the 
 - **IF/ELIF/ELSE**: Conditional logic.
 - **RETURN**: Exits a function with an optional return value.
 
-For the full list and detailed descriptions, check the `commands_description.md` in the repository.
+For the full list and detailed descriptions, check the `Commands.md` in the repository.
 
 ---
 
@@ -103,7 +103,7 @@ To run a R.A.P.L. program, follow these steps:
 
 2. Run the **R.A.P.L. shell**:
    ```bash
-   python shell.py
+   python Shell.py
    ```
 
 3. Inside the R.A.P.L. shell, run your program with:
