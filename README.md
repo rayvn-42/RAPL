@@ -84,7 +84,7 @@ This program:
 ### Showcase
 
 This is a screenshot from inside vscode of the example code, the syntax highlighting is a part of an extensions which is still under development and not ready for release:
-
+![VsCode screenshot](Screenshots/Example_code_vscode)
 ---
 ### Command Descriptions
 
