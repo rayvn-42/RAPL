@@ -6,9 +6,10 @@
 1. [Introduction](#introduction)
 2. [Installation](#installation)
 3. [Example Code](#example-code)
-4. [Command Descriptions](#command-descriptions)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
+4. [Showcase](#showcase)
+5. [Command Descriptions](#command-descriptions)
+6. [Usage](#usage)
+7. [Contributing](#contributing)
 
 ---
 
@@ -80,7 +81,11 @@ This program:
 - Prints the modified list multiple times.
 
 ---
+### Showcase
 
+This is a screenshot from inside vscode of the example code, the syntax highlighting is a part of an extensions which is still under development and not ready for release:
+
+---
 ### Command Descriptions
 
 For a full list of commands, refer to the `Commands.md` file in the repository. Below are some of the key commands:
