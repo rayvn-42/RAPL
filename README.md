@@ -25,7 +25,7 @@ To set up R.A.P.L. and get started:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/RAYANEPROGRAMMER/rapl.git
+   git clone https://github.com/RAYANEPROGRAMMER/RAPL.git
    ```
 
 2. **Run the R.A.P.L. shell**:
