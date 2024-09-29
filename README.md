@@ -116,6 +116,10 @@ To run a R.A.P.L. program, follow these steps:
    RUN("program.rapl")
    ```
 
+**Note:**
+Paths such as ```C:\Users\pc\Desktop\example_HelloWorld.rapl``` won't work, instead use ```C:/Users/pc/Desktop/example_HelloWorld.rapl```.
+This occurs because the program doesn't handle the ```\``` character, instead we use ```/```.
+
 This will execute your R.A.P.L. program within the custom shell.
 
 ---
