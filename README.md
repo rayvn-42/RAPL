@@ -81,22 +81,25 @@ This program:
 - Prints the modified list multiple times.
 
 ---
+
 ### Showcase
 
-This is a screenshot from inside vscode of the example code, the syntax highlighting is a part of an extensions which is still under development and not ready for release:
-![VsCode screenshot](Screenshots/Example_code_vscode)
+This is a screenshot from inside VSCode of the example code. The syntax highlighting is part of an extension that is still under development and not ready for release:
+![VSCode Screenshot](Screenshots/Example_code_vscode)
+
 ---
+
 ### Command Descriptions
 
-For a full list of commands, refer to the `Commands.md` file in the repository. Below are some of the key commands:
+For a full list of commands, refer to the `Commands.md` file in the repository. Below are some key commands:
 
 - **DEF**: Defines a non-constant variable.
 - **FUNC**: Declares a function.
-- **FOR/WHILE**: Loop through code blocks.
+- **FOR/WHILE**: Loops through code blocks.
 - **IF/ELIF/ELSE**: Conditional logic.
 - **RETURN**: Exits a function with an optional return value.
 
-For the full list and detailed descriptions, check the `Commands.md` in the repository.
+For the complete list and detailed descriptions, check the `Commands.md` file in the repository.
 
 ---
 
@@ -108,7 +111,7 @@ To run a R.A.P.L. program, follow these steps:
 
 2. Run the **R.A.P.L. shell**:
    ```bash
-   python Shell.py
+   python shell.py
    ```
 
 3. Inside the R.A.P.L. shell, run your program with:
@@ -116,9 +119,9 @@ To run a R.A.P.L. program, follow these steps:
    RUN("program.rapl")
    ```
 
-**Note:**
-Paths such as ```C:\Users\pc\Desktop\example_HelloWorld.rapl``` won't work, instead use ```C:/Users/pc/Desktop/example_HelloWorld.rapl```.
-This occurs because the program doesn't handle the ```\``` character, instead we use ```/```.
+**Note:**  
+Paths such as `C:\Users\pc\Desktop\example_HelloWorld.rapl` won't work; instead, use `C:/Users/pc/Desktop/example_HelloWorld.rapl`.  
+This occurs because the program doesn't handle the `\` character; instead, we use `/`.
 
 This will execute your R.A.P.L. program within the custom shell.
 
