@@ -80,6 +80,18 @@ This program:
 - Applies a function to each element of a list.
 - Prints the modified list multiple times.
 
+Basic Hello world program:
+
+```rapl
+let message = "Hello World!"
+
+print(message)
+```
+
+This program:
+
+- Print 'Hello world' to the terminal.
+
 ---
 
 ### Showcase
