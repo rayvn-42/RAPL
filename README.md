@@ -42,35 +42,35 @@ Here is a sample R.A.P.L. program that showcases function definitions, loops, an
 ```rapl
 # This is a very useful piece of software
 
-FUNC oopify(prefix) -> prefix + "oop"
+def oopify(prefix) -> prefix + "oop"
 
-FUNC join(elements, separator)
-	DEF result = ""
-	DEF len = LEN(elements)
+def join(elements, separator)
+	let result = ""
+	let len = len(elements)
 
-	FOR i = 0 TO len THEN
-		DEF result = result + elements/i
-		IF i != len - 1 THEN DEF result = result + separator
-	END
+	for i = 0 to len then
+		let result = result + elements/i
+		if i != len - 1 then let result = result + separator
+	end
 
-	RETURN result
-END
+	return result
+end
 
-FUNC map(elements, func)
-	DEF new_elements = []
+def map(elements, func)
+	let new_elements = []
 
-	FOR i = 0 TO LEN(elements) THEN
-		APPEND(new_elements, func(elements/i))
-	END
+	for i = 0 to len(elements) then
+		append(new_elements, func(elements/i))
+	end
 
-	RETURN new_elements
-END
+	return new_elements
+end
 
-PRINT("Greetings universe!")
+print("Greetings universe!")
 
-FOR i = 0 TO 5 THEN
-	PRINT(join(map(["l", "sp"], oopify), ", "))
-END
+for i = 0 to 5 then
+	print(join(map(["l", "sp"], oopify), ", "))
+end
 ```
 
 This program:
@@ -84,20 +84,23 @@ This program:
 
 ### Showcase
 
-This is a screenshot from inside VSCode of the example code. The syntax highlighting is part of an extension that is still under development and not ready for release:
+This is a screenshot from inside VSCode of the example code:
+
 ![VSCode Screenshot](Screenshots/Example_code_vscode)
+
+The syntax highlighting is part of an extension that is still under development and not ready for release.
 
 ---
 
 ### Command Descriptions
 
-For a full list of commands, refer to the `Commands.md` file in the repository. Below are some key commands:
+For a full list of commands, refer to the [Commands](Commands.md) file in the repository. Below are some key commands:
 
-- **DEF**: Defines a non-constant variable.
-- **FUNC**: Declares a function.
-- **FOR/WHILE**: Loops through code blocks.
-- **IF/ELIF/ELSE**: Conditional logic.
-- **RETURN**: Exits a function with an optional return value.
+- **let**: Defines a non-constant variable.
+- **def**: Declares a function.
+- **for/while**: Loops through code blocks.
+- **if/elif/else**: Conditional logic.
+- **return**: Exits a function with an optional return value.
 
 For the complete list and detailed descriptions, check the `Commands.md` file in the repository.
 
@@ -116,12 +119,12 @@ To run a R.A.P.L. program, follow these steps:
 
 3. Inside the R.A.P.L. shell, run your program with:
    ```rapl
-   RUN("program.rapl")
+   run("program.rapl")
    ```
 
 **Note:**  
 Paths such as `C:\Users\pc\Desktop\example_HelloWorld.rapl` won't work; instead, use `C:/Users/pc/Desktop/example_HelloWorld.rapl`.  
-This occurs because the program doesn't handle the `\` character; instead, we use `/`.
+This occurs because the program doesn't handle the `\` character; instead use `/`.
 
 This will execute your R.A.P.L. program within the custom shell.
 
