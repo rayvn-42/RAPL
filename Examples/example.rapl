@@ -1,5 +1,3 @@
-# This is a very useful piece of software
-
 def oopify(prefix) -> prefix + "oop"
 
 def join(elements, separator)
