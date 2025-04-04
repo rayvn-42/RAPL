@@ -1,8 +1,8 @@
 ---
 
-## R.A.P.L. (Rapid Application Programming Language)
+# R.A.P.L. (Rapid Application Programming Language)
 
-### Table of Contents
+## Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#installation)
 3. [Example Code](#example-code)
@@ -13,15 +13,17 @@
 
 ---
 
-### Introduction
+## Introduction
 
 **R.A.P.L.** (Rapid Application Programming Language) is a developing programming language designed for simplicity and efficiency. It aims to make coding more intuitive by providing a clean syntax for logic, loops, and function handling.
 
 ---
 
-### Installation
+## Installation
 
-To set up R.A.P.L. and get started:
+Requirements to run the program:
+- [Python](https://www.python.org/downloads/) [Recommended: v3.12.6]
+- [git](https://git-scm.com/downloads) [Recommended: v2.48.1]
 
 1. **Clone the repository**:
    ```bash
@@ -35,7 +37,7 @@ To set up R.A.P.L. and get started:
 
 ---
 
-### Example Code
+## Example Code
 
 Here is a sample R.A.P.L. program that showcases function definitions, loops, and string manipulations:
 
@@ -94,7 +96,7 @@ This program:
 
 ---
 
-### Showcase
+## Showcase
 
 This is a screenshot from inside VSCode of the example code:
 
@@ -104,7 +106,7 @@ The syntax highlighting is part of an extension that is still under development 
 
 ---
 
-### Command Descriptions
+## Command Descriptions
 
 For a full list of commands, refer to the [Commands](Commands.md) file in the repository. Below are some key commands:
 
@@ -118,7 +120,7 @@ For the complete list and detailed descriptions, check the `Commands.md` file in
 
 ---
 
-### Usage
+## Usage
 
 To run a R.A.P.L. program, follow these steps:
 
@@ -142,7 +144,7 @@ This will execute your R.A.P.L. program within the custom shell.
 
 ---
 
-### Contributing
+## Contributing
 
 R.A.P.L. is still in development. Contributions, bug reports, and suggestions are welcome! To contribute:
 
@@ -151,3 +153,14 @@ R.A.P.L. is still in development. Contributions, bug reports, and suggestions ar
 3. Submit a pull request.
 
 ---
+
+## Authors
+
+- **Rayan Berrabah** -
+  [Github](https://github.com/rayvn-42)
+
+---
+
+## License
+
+This project is licensed under the [MIT](LICENSE) License - see the [LICENSE](LICENSE) file for details
