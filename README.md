@@ -48,11 +48,11 @@ def oopify(prefix) -> prefix + "oop"
 
 def join(elements, separator)
 	let result = ""
-	let len = len(elements)
+	let itm_len = len(elements)
 
-	for i = 0 to len then
+	for i = 0 to itm_len then
 		let result = result + elements/i
-		if i != len - 1 then let result = result + separator
+		if i != itm_len - 1 then let result = result + separator
 	end
 
 	return result
